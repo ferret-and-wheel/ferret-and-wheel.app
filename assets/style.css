@@ -56,7 +56,10 @@ header.site a.brand {
   font-weight: 700;
 }
 
-header.site nav { display: flex; gap: 18px; font-size: 15px; }
+header.site nav { display: flex; align-items: center; gap: 18px; font-size: 15px; }
+
+header.site nav a.lang { color: var(--muted); text-decoration: none; }
+header.site nav a.lang:hover { color: var(--text); }
 
 /* App menu: a <details> dropdown, so it works on tap and keyboard without JS. */
 .menu { position: relative; }
